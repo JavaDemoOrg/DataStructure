@@ -1,6 +1,6 @@
 package com.abt.structure.hash_map;
 
-import com.abt.android.util.TimeUtil;
+import com.abt.structure.util.TimeUtil;
 
 import java.util.HashMap;
 

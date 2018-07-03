@@ -14,9 +14,9 @@ public class DoBlockingQueue {
 
     public static void main(String[] args) throws InterruptedException {
         // 声明一个容量为10的缓存队列
-        BlockingQueue<String> queue = new LinkedBlockingQueue<String>(10);
+        BlockingQueue<String> queue = new LinkedBlockingQueue<>(10);
 
-        //new了三个生产者和一个消费者
+        // new了三个生产者和一个消费者
         Producer producer1 = new Producer(queue);
         Producer producer2 = new Producer(queue);
         Producer producer3 = new Producer(queue);
